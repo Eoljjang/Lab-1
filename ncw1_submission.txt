@@ -1,0 +1,17 @@
+Question 1: https://github.com/Eoljjang
+
+Question 2: Version 2.31.0 is installed on my machine.
+
+Question 3: Version 2.31.0 is installed in the virtual environment. The same as my local machine.
+
+Question 4: The virtual environment is like its own separate machine. Thus, its Python is "vanilla" and does not have the same packages
+as the Python on my local machine may have (which is why we had to pip3 install requests again in the venv). For example, I have PyMongo
+installed on my local machine, but on the venv it doesn't exist until I install it again. 
+
+Question 5:
+
+Question 6:
+
+Question 7:
+
+Question 8:
