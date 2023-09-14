@@ -8,10 +8,20 @@ Question 4: The virtual environment is like its own separate machine. Thus, its 
 as the Python on my local machine may have (which is why we had to pip3 install requests again in the venv). For example, I have PyMongo
 installed on my local machine, but on the venv it doesn't exist until I install it again. 
 
-Question 5:
+Question 5: The status code returned was 301 (the url has moved permanently).
+In order to get a status code of 200, we must curl to the URL: http://www.google.com/
 
-Question 6:
+Question 6: 
+- The status code returned was 418.
+- Doing curl -i results in the same status code, 418 and returns the string: "I am a teapot".
+- Doing curl -iL results in the same status code, 418 and returns the string: "I am a teapot".
+- Curling a URL sends an HTTP request. The HTTP server responds with a status line (code, returned string, etc.) and the HTML header and/or body.
 
-Question 7:
+Question 7: Using -X POST allows you to send data over your HTTP request. In our case, we're sending the string "X=Y" to the Python
+file that was requested in the curl command.
 
 Question 8:
+
+FOR MY OWN REFERENCE, NOT SUBMISSION:
+- -i option includes the HTTP response headers in the output. -iL follows redirects.
+- POST -d "..." also sends data
