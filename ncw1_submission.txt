@@ -19,8 +19,9 @@ Question 6:
 
 Question 7: Using -X POST allows you to send data over your HTTP request. In our case, we're sending the string "X=Y" to the Python
 file that was requested in the curl command.
+- In the output with -X POST, 'X' and 'Y' are set to the form fields. While in the first output, there are no form fields.
 
-Question 8:
+Question 8: https://raw.githubusercontent.com/Eoljjang/Lab-1/main/script.py
 
 FOR MY OWN REFERENCE, NOT SUBMISSION:
 - -i option includes the HTTP response headers in the output. -iL follows redirects.
